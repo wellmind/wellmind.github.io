@@ -167,8 +167,8 @@ a:hover {
 }
 
 #back2Top {
-    width: 40px;
-    line-height: 40px;
+    width: 66px;
+    line-height: 66px;
     overflow: hidden;
     z-index: 999;
     display: none;
@@ -179,12 +179,12 @@ a:hover {
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
     position: fixed;
-    bottom: 40px;
+    bottom: 66px;
     right: 0;
     background-color: #fff;
     color: #555;
     text-align: center;
-    font-size: 26px;
+    font-size: 60px;
     text-decoration: none;
 }
 #back2Top:hover {

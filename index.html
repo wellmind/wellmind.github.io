@@ -1,417 +1,160 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="webthemez">
-    <title>WellMind</title>
-	<!-- core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet"> 
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet"> 
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico"> 
-</head> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <script src="jquery.min.js"></script>
+    <script src="navbar.js"></script>
 
-<body id="home">
-    <header id="header">
-        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
-                </div>
-				
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="#home">Home</a></li>  
-                        <li class="scroll"><a href="#services">Services</a></li>
-                        <li class="scroll"><a href="#about">About</a></li> 
-                        <li class="scroll"><a href="#our-team">Staff</a></li>
-                        <li class="scroll"><a href="#contact-us">Contact</a></li>                        
-                    </ul>
-                </div>
-            </div><!--/.container-->
-        </nav><!--/nav-->
-    </header><!--/header-->
+</head>
+<body>
 
-    <section id="hero-banner">
-             <div class="banner-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                 
-                                    <h2>Stronger than <b>EVER</b></h2>
-                                    <p>Wellmind is led by a group of medical <br>
-                                        doctors and biomedical scientists <br>
-                                        to develop advanced technologies &<br>
-                                        provide professional medical services <br>
-                                        for neurodevelopmental diseases.
-                                    </p>
-                                    <a class="btn btn-primary btn-lg" href="#">Start Now</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    </section><!--/#main-slider-->
+<header>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><img src=logo.png width="155" height="32"></li>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#about">About</a></li>
+            <li class="item"><a href="#staff">Staff</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+            </li>
+            <li class="item button"><a href="#">Log In</a></li>
+            <li class="item button secondary"><a href="#">Sign Up</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+</header>
 
- <section id="services" >
-        <div class="container">
+    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
 
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Whats Best For You</h2>
-            </div>
+    <section id=home>
+        <img src=pic01.jpg width=100% height=100%>
+    </section>
 
-            <div class="row">
-                <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-futbol-o"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Gene</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
+    <section id="about">
+        <br><br><br>
+        <pre>
+            <center><h2>About Us</h2></center>
+            This company aims at the early diagnosis,
+            identification of at-risk subjects and 
+            intervention of neurodevelopmental disorders.
 
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-compass"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Genetics</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
 
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-database"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">BioMed</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-bar-chart"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Classes</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
 
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-paper-plane-o"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Specials</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
 
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-bullseye"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Health</h4>
-                                <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa, eu eleifend ipsum.</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                </div>
-            </div><!--/.row-->    
-        </div><!--/.container-->
-    </section><!--/#services-->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </pre>
+    </section>
   
- <section id="about">
-        <div class="container">
+    <section id="staff">
+        <br><br><br>
+        <pre>
+            <center><h2>Our Staff</h2></center>
+        </pre>
+        <table align="center">
+            <tr><td><img src=stephen.jpg width="260" height="280"></td>
+                <td><img src=hcso.jpg width="260" height="280"></td>
+                <td><img src=libby.jpg width="260" height="280"></td>
+                <td><img src=kenneth.jpg width="220" height="280"></td>
+            </tr>
+            <tr><td align="center">Professor Tsui</td>
+                <td align="center">Professor So</td>
+                <td align="center">Libby</td>
+                <td align="center">Kenneth</td>
+            </tr>
+        </table>
+        
+        <pre>
+            
 
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Who we are</h2>
-                <p class="wow fadeInDown">This company aims at the early diagnosis, identification of at-risk subjects <br>
-                     and intervention of neurodevelopmental disorders.</p>
-            </div>
 
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeft">
-                  <img class="img-responsive" src="images/about.png" alt="">
-                </div>
 
-                <div class="col-sm-6 wow fadeInRight">
-                    <h3 class="column-title">Our Lab</h3>
-                    <p>Our initial target disease will be Autism Spectrum Disorders (ASD) and it has a very high heritability (around 90%) among all neurodevelopmental disorders.</p>
- <p>The prevalence of autism spectrum disorders (ASD) is 1.69% in developed countries. It means that every year the pools of < 12 months old ASD children in Hong Kong and Mainland China is around 845 and 126,750 respectively.</p>
-<ul class="listarrow">
-<li><i class="fa fa-angle-double-right"></i>Gene</li>
-<li><i class="fa fa-angle-double-right"></i>DNA</li>
-<li><i class="fa fa-angle-double-right"></i>Bio</li>
-<li><i class="fa fa-angle-double-right"></i>Health</li> 
-</ul>
- 
 
-                </div>
-            </div>
-        </div>
-    </section><!--/#about-->
 
-     <section id="our-team">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">
-Our Staff
-</h2>
-<p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p> 
-            </div>
-			
-			 	
-            <div class="row text-center">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/01.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Prof Tsui</h3>
-                            <span>Founder</span> 
-                        </div> 
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/02.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Mike Timobbs</h3>
-                            <span>Sr. Trainer</span> 
-                        </div> 
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/03.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Remo Silvaus</h3>
-                            <span>Sr. Trainer</span> 
-                        </div> 
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/04.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Niscal Deon</h3>
-                            <span>Jr. Trainer</span> 
-                        </div> 
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-    </section><!--/#our-team-->
 
-    
-    <section class="testimonial-area" id="testimonial">
-			<div class="container">
-				<div class="section-header">
-                <h2 class="section-title wow fadeInDown">Testimonial</h2>
-                <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
-            </div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
-							<div class="row">
-								<div class="col-xs-12">
-									<blockquote>Sontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classical Layears old. belief, Lorem Ipsuis not simply</blockquote>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-3">
-									<img src="images/pic1.jpg" alt="client">
-								</div>
-								<div class="col-xs-9 half-gutter">
-									<h5>John Bond</h5>
-									<h6>Lorem Ipsuis simply</h6>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
-							<div class="row">
-								<div class="col-xs-12">
-									<blockquote>Tontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classical Layears old. belief, Lorem Ipsuis not simply</blockquote>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-3">
-									<img src="images/pic2.jpg" alt="client">
-								</div>
-								<div class="col-xs-9 half-gutter">
-									<h5>John Bond</h5>
-									<h6>Lorem Ipsuis simply</h6>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
-							<div class="row">
-								<div class="col-xs-12">
-									<blockquote>Aontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in a piece of classical Layears old. belief, Lorem Ipsuis not simply</blockquote>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-3">
-									<img src="images/pic1.jpg" alt="client">
-								</div>
-								<div class="col-xs-9 half-gutter">
-									<h5>John Bond</h5>
-									<h6>Lorem Ipsuis simply</h6>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-    <section id="contact-us">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Contact Us</h2>
-            </div>
-        </div>
-    </section><!--/#contact-us-->
 
+
+
+
+
+
+
+
+
+
+
+
+
+        </pre>
+    </section>
 
     <section id="contact">
-        
-        <div class="container">
-            <div class="container contact-info">
-                <div class="row">
-				  <div class="col-sm-4 col-md-4">
-                        <div class="contact-form">
-                            <h3>Contact Info</h3>
+        <br><br><br>
+        <pre>
+            <center><h2>Contact Us</h2></center>
+            WellMind BioMed Technology
+            Unit 230, 2/F, Building 19W
+            Hong Kong Science Park
+            Email: info@wellmind.com.hk
+            Phone & Fax: (852) 3590-8435
 
-                            <address>
-                              <strong>WellMind BioMed Technology</strong><br>
-                              Unit 230, 2/F, Building 19W<br>
-                              Hong Kong Science Park<br>
-                              Email: info@wellmind.com.hk<br>
-                              <abbr title="Phone and Fax">P&F:</abbr> (852) 3590-8435
-                            </address>
-					</div></div>
-                    <div class="col-sm-8 col-md-8">
-                        <div class="contact-form">
-                       
-                            <form id="main-contact-form" name="contact-form" method="post" action="#">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Name" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="email" class="form-control" placeholder="Email" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="subject" class="form-control" placeholder="Subject" required>
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" class="form-control" rows="8" placeholder="Message" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Send Message</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>   
-   </section><!--/#bottom-->
 
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2020 WellMind.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer><!--/#footer-->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script> 
-    <script src="js/mousescroll.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/jquery.inview.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/custom-scripts.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </pre>
+    </section>
+
 </body>
 </html>
